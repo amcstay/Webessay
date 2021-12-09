@@ -1,0 +1,120 @@
+/* -- CSS Reset --*/
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    line-height: 1em;
+}
+
+/*--Main structure style--*/
+
+body {
+    background: #323232;
+    color: rgb(255, 255, 255);
+
+}
+
+section, header, footer {
+    width: 80%;
+    max-width: 700px;
+    margin: auto;
+}
+
+/*--styling typograpghy--*/
+h2,h3 {
+    color: #F2A71B;
+}
+
+h1 {
+    font-size: 5.653rem;
+    color: white;
+    margin-top: 7.5rem;
+}
+
+h2 {
+    font-size: 1.999rem;
+    margin: 3em 0 1 em 0;
+}
+
+h3 {
+    font-size: 1.25rem;
+    margin: 3em 0 1 em 0;
+}
+
+p, blockquote {
+    margin-bottom: 1.5rem;
+    line-height: 1.4;
+}
+
+blockquote {
+    color: #F5ED7B;
+    font-size: 1.15rem;
+    font-style: italic;
+    hanging-punctuation: first;
+    text-indent: -0.5rem;
+
+}
+cite {
+    color: rgb(233, 231, 231);
+    font-size: 0.8rem;
+    font-style: normal;
+}
+
+a {
+    color: #D91494;
+    text-decoration: none;
+  }
+  
+  
+  /* mouse over link */
+  a:hover {
+    color: #F23005;
+    text-decoration: none;
+  }
+
+  /*--nav--*/
+  nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      margin: 0;
+      margin-top: -15;
+      width: 100%;
+      background: black;
+      background-size: cover;;
+      padding: 2em 5;
+      min-height: 50px;
+  height: 20px; 
+  }
+  nav ul {
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 1;
+  }
+
+  ul li {
+      display: inline;
+      margin: 28px;
+  }
+
+  nav a {
+      color: white;
+  }
+
+  nav a:hover {
+      border-bottom: none;
+      color: violet;
+      transition: all 0.4s ease-in-out;
+  }
+
+ 
+}
+
+footer {
+    text-align: center;
+    font-size: 0.75rem;
+    margin: 6em 0 3em 0
+    padding: 2em 10;
+}
+
+
