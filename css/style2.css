@@ -132,6 +132,7 @@ footer p {
  .column {
     float: left;
     column-gap: 2rem;
+    margin-right: 10px;
     }
 
     /* Set width length for the left, right and middle columns */
