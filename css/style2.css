@@ -12,6 +12,7 @@
 body {
     background: #323232;
     color: rgb(255, 255, 255);
+    padding-top: 20px
 }
 
 section, header{
@@ -65,7 +66,7 @@ cite {
 /*--nav--*/
 
 a {
-    color: #D91494;
+    color: #F2A71B;
     text-decoration: none;
   }
   
@@ -89,6 +90,7 @@ a {
       padding: 2em 5;
       min-height: 45px;
   height: 20px; 
+
   }
   nav ul {
       text-align: center;
@@ -172,8 +174,8 @@ footer p {
 hr {
     margin: 50px 0;
     height: 1px;
-    background-color: #D91494;
-    color: #D91494;
+    background-color: #F2A71B;
+    color: #F2A71B;
     border: 0 none;
 }
 
@@ -191,3 +193,29 @@ hr {
     font-size: 10;
   }
 
+
+  #work {
+    border-radius:20px;
+    margin: -100px 10px 20px 10px;
+    padding-top: 100px;
+    height: 150px;
+    }
+
+        #advice {
+            border-radius:20px;
+            margin: -100px 10px 20px 10px;
+            padding-top: 100px;
+            height: 150px;
+            }
+
+            #intro {
+                border-radius:0px;
+                margin: -100px 0px 0px 0px;
+                padding-top: 100px;
+             }
+
+            #bottom {
+                border-radius:20px;
+                margin: -100px 10px 20px 10px;
+                padding-top: 100px;   
+            }
