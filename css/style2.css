@@ -66,14 +66,14 @@ cite {
 /*--nav--*/
 
 a {
-    color: #F2A71B;
+    color: white;
     text-decoration: none;
   }
   
   
   /* mouse over link */
   a:hover {
-    color: #F23005;
+    color: #F2A71B;
     text-decoration: none;
   }
 
@@ -110,7 +110,7 @@ a {
 
   nav a:hover {
       border-bottom: none;
-      color: violet;
+      color: #F2A71B;
       transition: all 0.4s ease-in-out;
   }
 
@@ -142,6 +142,7 @@ footer p {
     /* Set width length for the left, right and middle columns */
     .left {
     width: 15%;
+    min-width: 120px;
     }
 
     .middle {
@@ -219,3 +220,4 @@ hr {
                 margin: -100px 10px 20px 10px;
                 padding-top: 100px;   
             }
+
